@@ -105,6 +105,7 @@
                     android:id="@+id/btnCrear"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:onClick="crear"
                     android:text="Crear" />
 
                 <Space
@@ -115,6 +116,7 @@
                     android:id="@+id/btnBuscar"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:onClick="buscar"
                     android:text="Buscar" />
             </TableRow>
 
@@ -127,6 +129,7 @@
                     android:id="@+id/btnCambiar"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:onClick="actualizar"
                     android:text="Cambiar" />
 
                 <Space
@@ -137,6 +140,7 @@
                     android:id="@+id/btnEliminar"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:onClick="eliminar"
                     android:text="Eliminar" />
             </TableRow>
 
