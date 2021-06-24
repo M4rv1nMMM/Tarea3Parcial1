@@ -13,7 +13,7 @@ public class personas extends SQLiteOpenHelper {
 
     @Override
     public void onCreate(SQLiteDatabase db) {
-        db.execSQL("create table tbl_personas(pname text primary key, pname2 text, pedad int, pmail text, paddress text)");
+        db.execSQL("create table tbl_personas(pname text primary key, pname2 text, page int, pmail text, paddress text)");
     }
 
     @Override
